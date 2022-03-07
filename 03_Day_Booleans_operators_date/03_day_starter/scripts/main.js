@@ -40,19 +40,47 @@ console.log(`The answer to questions 3 is: ${parseInt('9.8') == 10}`)
  *      2. Write three JavaScript statement which provide falsy value.
  */
 console.log(`Question 4`)
+console.log(`Truthy values: ${3}, ${'woahhhhh'}, ${true}`)
+console.log(`Falsy value: ${false}, ${0}, ${''}`)
 
 /*
- * 5. Figure out the result of the following omparison expression first
+ * 5. Figure out the result of the following comparison expression first
  * without using console.log().   After you decide the result confirm it using
  * console.log
  */
 console.log(`Question 5`)
+console.log(4 > 3) //true
+console.log(4 >= 3) //true
+console.log(4 < 3) //false
+console.log(4 <= 3) //false
+console.log(4 == 4) //true
+console.log(4 === 4) //true
+console.log(4 != 4) //false
+console.log(4 !== 4) //false
+console.log(4 != '4') //false
+console.log(4 == '4') //true
+console.log(4 === '4') //false
+//Find the length of python and jargon and make a falsy comparison statement.console.log
+let pytString = 'python'
+let jarString = 'jargon'
+
+console.log(pytString.length === jarString.length) //true
 
 /*
  * 6. Figure out the result of the following expressions first without using
  * console.log().  After you decide the result confirm it by using console.log()
  */
 console.log(`Questions 6`)
+console.log(4 > 3 && 10 < 12) //true
+console.log(4 > 3 && 10 > 12) //false
+console.log(4 > 3 || 10 < 12) //true
+console.log(4 > 3 || 10 > 12) //true
+console.log(!(4 > 3)) //false
+console.log(!(4 < 3)) //true
+console.log(!(false)) //true
+console.log(!(4 > 3 && 10 < 12)) //false
+console.log(!(4 > 3 && 10 > 12)) //true
+console.log(!(4 === '4')) //true
 
 /*
  * 7. Use the Date object to do the following activities
@@ -65,3 +93,11 @@ console.log(`Questions 6`)
  *      7. Find out the number of seconds elapsed from January 1, 1970 to now.
  */
 console.log(`Question 7`)
+const now = new Date()
+console.log(`The year is ${now.getFullYear()}`)
+console.log(`The month today as a number is ${now.getMonth() + 1}`)
+console.log(`The date today is ${now.getMonth() + 1}/${now.getDate()}/${now.getFullYear()}`)
+console.log(`The day today as a number is ${now.getDate()}`)
+console.log(`The hours right now is ${now.getHours()}`)
+console.log(`The minutes right now is ${now.getMinutes()}`)
+console.log(`The number of seconds since January 1, 1970 is ${now.getTime()}`)
