@@ -59,7 +59,9 @@
 🇬🇧 [English](./readMe.md)
 🇪🇸 [Spanish](./Spanish/readme.md)
 🇷🇺 [Russian](./RU/README.md)
-KR [Korian](./Korea/README.md)
+🇦🇿 [Azerbaijan](./Azerbaijani/readMe.md)
+KR [Korean](./Korea/README.md)
+🇻🇳 [Vietnamese](./Vietnamese/README.md)
 
 </div>
 
